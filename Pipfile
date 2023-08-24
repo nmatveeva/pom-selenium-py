@@ -9,6 +9,7 @@ verify_ssl = true
 pytest = "*"
 selenium = "*"
 pytest-html = "*"
+pytest-xdist = "*"
 
 [requires]
 python_version = "3.11"
