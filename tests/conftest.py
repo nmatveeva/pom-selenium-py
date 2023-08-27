@@ -20,8 +20,8 @@ def pytest_configure(config: pytest.Config) -> None:
                               + '_report.html')
 
 
-@pytest.fixture()
-def config(scope='session'):
+@pytest.fixture(scope='session')
+def config():
 
     # Read the file
     with open('config.json') as config_file:
